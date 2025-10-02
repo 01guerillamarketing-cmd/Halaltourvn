@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Halal Tour Company Vietnam</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #013220;
+      color: #fff;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://images.unsplash.com/photo-1524492449090-0f7ec96c9b8b') center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: gold;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: fadeIn 2s ease;
+    }
+    header p {
+      font-size: 1.3rem;
+      max-width: 600px;
+      animation: fadeIn 3s ease;
+    }
+    header a {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: gold;
+      color: #013220;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+      animation: fadeIn 4s ease;
+    }
+    header a:hover {
+      background: #ffd700cc;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: gold;
+    }
+    .about p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .tours {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .tour-card {
+      background: #025939;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .tour-card:hover {
+      transform: translateY(-5px);
+    }
+    .tour-card h3 {
+      margin-top: 0;
+      color: gold;
+    }
+    .tour-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: gold;
+      color: #013220;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .benefit {
+      flex: 1 1 200px;
+      margin: 1rem;
+      padding: 1rem;
+      background: #025939;
+      border-radius: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 1rem 2rem;
+      background: gold;
+      color: #013220;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    footer {
+      background: #012d1d;
+      color: gold;
+      text-align: center;
+      padding: 1rem;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Discover Vietnam, The Halal Way</h1>
+    <p>Where Islamic values meet the warmth of Hội An & Đà Nẵng. 
+    Like Islam, Vietnam treasures community, respect, and care. 
+    From lantern-lit alleys to golden coastlines, our tours connect hearts across cultures.</p>
+    <a href="#tours">Explore Tours</a>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>We provide authentic Halal travel experiences in Central Vietnam. 
+       From prayer-friendly itineraries to halal-certified dining, 
+       our tours bring together the best of Vietnamese hospitality and Islamic values.</p>
+  </section>
+
+  <section id="tours">
+    <h2>Our Tours</h2>
+    <div class="tours">
+      <div class="tour-card">
+        <h3>Lantern Light Crawl – Hội An</h3>
+        <p>A magical evening tour of lantern-lit alleys, ending with Halal dining by the river.</p>
+        <a href="https://tuanabdullah.com" target="_blank">Book Now</a>
+      </div>
+      <div class="tour-card">
+        <h3>Da Nang Highlights</h3>
+        <p>Discover Da Nang’s golden beaches, Marble Mountains, and prayer-friendly spots.</p>
+        <a href="https://tuanabdullah.com" target="_blank">Book Now</a>
+      </div>
+      <div class="tour-card">
+        <h3>Halal Dining Experiences</h3>
+        <p>Savor Vietnamese flavors made Halal — from Hội An street food to Da Nang dining.</p>
+        <a href="https://tuanabdullah.com" target="_blank">Book Now</a>
+      </div>
+      <div class="tour-card">
+        <h3>Central Vietnam Heritage Tour</h3>
+        <p>From Hội An Ancient Town to Hue’s Imperial Citadel, discover culture with faith.</p>
+        <a href="https://tuanabdullah.com" target="_blank">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Travel With Us</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>Halal Certified</h3>
+        <p>100% Halal dining on all tours.</p>
+      </div>
+      <div class="benefit">
+        <h3>Prayer Friendly</h3>
+        <p>Respect for prayer times with planned breaks.</p>
+      </div>
+      <div class="benefit">
+        <h3>Bilingual Guides</h3>
+        <p>Guides fluent in English, Vietnamese & Arabic.</p>
+      </div>
+      <div class="benefit">
+        <h3>Culture & Faith</h3>
+        <p>Vietnamese warmth with Islamic hospitality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <a href="https://wa.me/84778773165" target="_blank">WhatsApp</a>
+    <a href="tel:+84778773165">Call Us</a>
+    <a href="mailto:28a.samad@gmail.com">Email Us</a>
+  </section>
+
+  <footer>
+    <p>“Travel with faith, discover with heart.”</p>
+    <p>© 2025 Halal Tour Company Vietnam</p>
+  </footer>
+</body>
+</html>
